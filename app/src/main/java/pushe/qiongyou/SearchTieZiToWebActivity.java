@@ -23,6 +23,7 @@ public class SearchTieZiToWebActivity extends ActionBarActivity {
         setContentView(R.layout.activity_search_tie_zi_to_web);
 //        getWindow().requestFeature(Window.FEATURE_PROGRESS);
         //找到uri
+        //34435435yyyyy
         Intent intent = getIntent();
         url = intent.getStringExtra("view_url");
         final WebView webView= (WebView) findViewById(R.id.webview);
