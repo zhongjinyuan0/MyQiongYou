@@ -1,0 +1,172 @@
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="qiongyou.qiongyou.Main_Fragment"
+    android:id="@+id/pulltorefresh">
+
+
+    <LinearLayout
+
+        android:background="@color/radioUnchecked_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <FrameLayout
+            android:background="@color/view_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewPager_height"/>
+
+            <RadioGroup
+                android:id="@+id/viewPager_radioGroup11"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center">
+                <RadioButton
+                    style="@style/viewPager_radio"
+                    />
+                <RadioButton
+                    style="@style/viewPager_radio"
+                    />
+                <RadioButton
+                    style="@style/viewPager_radio"
+                    />
+                <RadioButton
+                    style="@style/viewPager_radio"
+                    />
+                <RadioButton
+                    style="@style/viewPager_radio"
+                    />
+            </RadioGroup>
+        </FrameLayout>
+
+        <LinearLayout
+            android:background="@color/view_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <RadioButton
+                    style="@style/radioButton"
+                    android:drawableTop="@drawable/ic_home_jinnang_normal"
+                    android:text="穷游锦囊"
+                    />
+                <RadioButton
+                    style="@style/radioButton"
+                    android:drawableTop="@drawable/ic_home_sale_normal"
+                    android:text="穷游折扣"
+                    />
+                <RadioButton
+                    style="@style/radioButton"
+                    android:drawableTop="@drawable/ic_home_plan_normal"
+                    android:text="我的行程"
+                    />
+                <RadioButton
+                    style="@style/radioButton"
+                    android:drawableTop="@drawable/wayway0000"
+                    android:text="旅途中"
+                    />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:background="@color/view_color"
+            android:layout_marginLeft="@dimen/layout_marginpadding"
+            android:layout_marginRight="@dimen/layout_marginpadding"
+            android:layout_marginTop="@dimen/layout_marginTog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="微锦囊"
+            android:textSize="18dp"
+            android:textColor="@color/textcolor"/>
+
+
+        <classdata.MyView
+            android:layout_marginLeft="@dimen/layout_marginpadding"
+            android:layout_marginRight="@dimen/layout_marginpadding"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            />
+
+        <TextView
+            android:background="@color/view_color"
+            android:layout_marginLeft="@dimen/layout_marginpadding"
+            android:layout_marginRight="@dimen/layout_marginpadding"
+            android:layout_marginTop="@dimen/layout_marginTog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="最新折扣"
+            android:textSize="18dp"
+            android:textColor="@color/textcolor"/>
+
+        <classdata.MyView
+            android:layout_marginLeft="@dimen/layout_marginpadding"
+            android:layout_marginRight="@dimen/layout_marginpadding"
+            android:verticalSpacing="1dp"
+            android:horizontalSpacing="1dp"
+            android:id="@+id/gridView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            />
+
+        <Button
+            android:background="@color/view_color"
+            android:layout_marginLeft="@dimen/layout_marginpadding"
+            android:layout_marginRight="@dimen/layout_marginpadding"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="查看全部"
+            android:textSize="15dp"
+            android:textColor="@color/checked_color"/>
+
+        <TextView
+            android:background="@color/view_color"
+            android:layout_marginLeft="@dimen/layout_marginpadding"
+            android:layout_marginRight="@dimen/layout_marginpadding"
+            android:layout_marginTop="@dimen/layout_marginTog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="热门游记"
+            android:textSize="18dp"
+            android:textColor="@color/textcolor"/>
+
+        <classdata.MyListView
+            android:background="@color/view_color"
+            android:layout_marginLeft="@dimen/layout_marginpadding"
+            android:layout_marginRight="@dimen/layout_marginpadding"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </LinearLayout>
+
+
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

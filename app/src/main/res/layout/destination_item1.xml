@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="35"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:text="城市"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+       <ImageView
+           android:background="#ffe474ff"
+           android:layout_gravity="bottom"
+           android:layout_width="match_parent"
+           android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:text="中国"
+            android:textColor="@color/textcolor"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:text="china"
+            android:textColor="@color/textcolor"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+</FrameLayout>

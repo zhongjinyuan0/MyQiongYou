@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C9C9C9"
+    >
+
+    <AutoView.MyGridView
+        android:background="#fff"
+        android:numColumns="2"
+        android:id="@+id/sq_gridview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        ></AutoView.MyGridView>
+
+    <AutoView.MyGridView
+        android:background="#fff"
+        android:numColumns="2"
+        android:id="@+id/sq_gridview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        >
+
+
+        </AutoView.MyGridView>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

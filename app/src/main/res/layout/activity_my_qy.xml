@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pushe.qiongyou.MySYActivity"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="#ff169262"
+    >
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <RadioGroup
+           android:id="@+id/SY_radiogroup"
+           android:layout_width="wrap_content"
+           android:layout_height="46dp"
+           android:orientation="horizontal"
+           >
+           <RadioButton
+              style="@style/table_style"
+               android:text="推荐"
+               android:layout_gravity="center_horizontal"
+
+
+               />
+           <RadioButton
+              style="@style/table_style"
+               android:text="目的地"
+               android:layout_gravity="center_horizontal"
+               />
+           <RadioButton
+              style="@style/table_style"
+               android:text="社区"
+               android:layout_gravity="center_horizontal"
+               />
+
+           </RadioGroup>
+        <View
+            android:id="@+id/huankuai_view"
+            android:background="#ffb9b2ff"
+            android:layout_width="70dp"
+            android:layout_height="4dp" />
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           >
+           <ImageView
+               android:layout_marginRight="10dp"
+
+               android:id="@+id/sy_imageview"
+               android:padding="10dp"
+               android:src="@drawable/ic_sso_weibo"
+               android:layout_width="50dp"
+               android:layout_height="50dp" />
+           <ImageView
+               android:layout_gravity="right"
+               android:id="@+id/sy_search"
+               android:padding="10dp"
+               android:src="@drawable/ic_item_search"
+               android:layout_width="50dp"
+               android:layout_height="50dp" />
+
+
+           </LinearLayout>
+
+
+
+    </LinearLayout>
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/SY_viewpage"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    />
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+ <FrameLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewPager_height"/>
+    <RadioGroup
+        android:id="@+id/viewPager_radioGroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center">
+        <RadioButton
+            style="@style/viewPager_radio"
+            />
+        <RadioButton
+            style="@style/viewPager_radio"
+            />
+        <RadioButton
+            style="@style/viewPager_radio"
+            />
+        <RadioButton
+            style="@style/viewPager_radio"
+            />
+        <RadioButton
+            style="@style/viewPager_radio"
+            />
+    </RadioGroup>
+ </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                style="@style/radioButton"
+                android:drawableTop="@drawable/ic_home_jinnang_normal"
+                android:text="穷游锦囊"
+                />
+            <RadioButton
+                style="@style/radioButton"
+                android:drawableTop="@drawable/ic_home_sale_normal"
+                android:text="穷游折扣"
+                />
+            <RadioButton
+                style="@style/radioButton"
+                android:drawableTop="@drawable/ic_home_plan_normal"
+                android:text="我的行程"
+                />
+            <RadioButton
+                style="@style/radioButton"
+                android:drawableTop="@drawable/wayway0000"
+                android:text="旅途中"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

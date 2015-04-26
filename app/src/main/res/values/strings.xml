@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QiongYou</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="hytext">#ffa9af88</color>
+
+    <string name="title_activity_slpash">Slpash</string>
+    <string name="title_activity_my_qy">MyQYActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_my_squ">MySquActivity</string>
+    <string name="title_activity_my_serach">MySerachActivity</string>
+    <string name="title_activity_container">ContainerActivity</string>
+    <string name="title_activity_search_details">SearchDetailsActivity</string>
+    <string name="title_activity_search_tie_zi_to_web">SearchTieZiToWebActivity</string>
+
+
+    <dimen name="viewPager_height">200dp</dimen>
+    <dimen name="viewPager_radio">5dp</dimen>
+    <dimen name="layout_marginTog">8dp</dimen>
+    <dimen name="layout_marginpadding">5dp</dimen>
+    <dimen name="image_height00">70dp</dimen>
+    <dimen name="imageView">80dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+
+    <color name="radioChecked_color">#000</color>
+    <color name="radioUnchecked_color">#91dddddd</color>
+    <color name="textcolor">#000</color>
+    <color name="view_color">#f4f4f4</color>
+
+    <style name="radioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="viewPager_radio">
+        <item name="android:layout_width">@dimen/viewPager_radio</item>
+        <item name="android:layout_height">@dimen/viewPager_radio</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/radio_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+
+
+</resources>

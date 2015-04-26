@@ -1,0 +1,39 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/t1"
+        android:text="搜索历史"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <AutoView.MySearchList0
+        android:id="@+id/searchlistview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        </AutoView.MySearchList0>
+    <TextView
+        android:id="@+id/t2"
+        android:text="热点城市"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <AutoView.MySearchList0
+        android:id="@+id/searchlistview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        </AutoView.MySearchList0>>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

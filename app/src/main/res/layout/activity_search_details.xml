@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pushe.qiongyou.SearchDetailsActivity">
+<RadioGroup
+    android:id="@+id/searchdetails_radiogroup"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    >
+    <RadioButton
+        style="@style/table_style"
+        android:layout_weight="1"
+        android:text="目的地"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+
+
+        />
+    <RadioButton
+        style="@style/table_style"
+        android:text="帖子"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        />
+    <RadioButton
+        style="@style/table_style"
+        android:layout_weight="1"
+        android:text="用户"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        />
+
+    </RadioGroup>
+    <View
+        android:background="#ff54f29a"
+        android:id="@+id/search_huakuai"
+        android:layout_width="120dp"
+        android:layout_height="5dp"
+        />
+
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/searchdetails_viewpage"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    />
+
+</LinearLayout>

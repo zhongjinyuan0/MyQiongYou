@@ -1,0 +1,73 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="pushe.qiongyou.UserActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/user_imageview"
+        android:layout_width="match_parent"
+        android:src="@drawable/zbg_user_cover_def"
+        android:scaleType="centerCrop"
+        android:layout_height="150dp" />
+        <ImageView
+            android:src="@drawable/zweb_action_bar_back_pressed"
+            android:background="#ff48ff4c"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:background="#ff48ff4c"
+            android:src="@drawable/ic_push_setting"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:layout_gravity="right"
+            android:background="#ff48ff4c"
+            android:src="@drawable/ic_weather_m_20"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/user_textview"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="40dp"
+            android:background="#ff48ff4c"
+            android:text="我的主页"
+
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:gravity="left|center"
+            android:layout_height="40dp" />
+    </FrameLayout>
+
+    <TextView
+        android:textColor="#000"
+        android:text="最最最"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+       android:layout_margin="10dp"
+        android:id="@+id/user_listview"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+
+        />
+    </LinearLayout>
+
+
+    </ScrollView>
